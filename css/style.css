@@ -1,0 +1,150 @@
+
+
+
+@import url("https://fonts.googleapis.com/css?family=Lora:regular,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lato:egular,700&display=swap");
+
+/* Стили обнуления8 */ 
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a,
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+body {
+	line-height: 1;
+	color: #000;
+}
+
+/* ..................... */
+
+
+
+h1.title {
+	font-family: "lora";
+	font-weight: bold;
+	font-size: 52px;
+	line-height: 67px;
+	color: #10375C;
+	width:700px;
+	height: 200px;
+	margin-left: 99px;
+}
+
+.title span {
+	color: #DD2C00;
+}
+
+
+ul.menu__list {
+	font-family: "lato";
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 48px;
+	display: inline-block;
+	margin: 20px 0px 20px 100px;
+}
+
+a.menu__link {
+	color: #e74e06;
+	background-color: #10375C;
+	line-height: 90px;
+	font-size: 30px;
+	padding: 5px;
+}
+
+p.text {
+	font-family: lora;
+	font-size: 30px;
+	width: 600px;
+	height: 200px;
+	margin-top: 51px;
+	margin-right: 70px;
+	margin-bottom: 41px;
+	margin-left: 150px;
+	color: #10375c;
+	overflow: scroll;
+
+}
+/* 
+img {
+	width: 150px;
+	height: 50px;
+	margin: 10px 10px 10px 99px;
+}
+ */
+.image-1 {
+	width: 150px;
+	height: 50px;
+	margin: 10px 10px 10px 99px;
+}
+.image {
+	width: 150px;
+	height: 50px;
+	margin: 10px 10px 10px 10px;
+}
+
+.image-3 {
+	width: 150px;
+	height: 50px;
+	margin: 10px 10px 10px 10px;
+}
+
+h2 {
+	font-family: "lora";
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: 52px;
+	line-height: 67px;
+	color: #e74e06;
+	width:700px;
+	height: 200px;
+	margin: 30px 0px 30px 99px;
+}
+
+p {
+	font-family: "lato";
+	font-size: 30px;
+	color: #10375c;
+	max-width: 50%;
+	margin: 0px 0px 20px 150px;
+}
+a.link {
+	font-family: "lora";
+	display: inline-block;
+	font-size: 20px;
+	color: #0a19f1;
+	margin: 100px 30px 10px 99px;
+}
+
+
+footer {
+	font-family: "lora";
+	font-size: 15px;
+	margin: 10px 0px 20px 99px;
+}
